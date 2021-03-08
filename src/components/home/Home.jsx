@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react'
 import Display from '../displayCountry/Display'
-import Footer from '../footer/Footer'
 
 function Home() {
 
