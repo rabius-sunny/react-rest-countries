@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600;700&display=swap');
+* {
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+a {text-decoration: none ;}
+.app {
+    background: linear-gradient(to right, #5d8aa8, #c9ffe5);
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 5px solid #00b6ff;
+}
+.nav input {
+    width: 140px !important;
+    border: none;
+    border-radius: 13px;
+    display: inline;
+    padding: 2px 0 2px 8px;
+}
+
+.nav p {
+    margin-bottom: -5px;
+    font-size: 12px;
+    font-weight: 600;
+    padding-left: 3px;
+}
+.myBtn {
+    border: none;
+    background: slateblue;
+    position: absolute;
+    right: 13px;
+    font-size: 12px;
+    padding: 6px 6px 4px 6px;
+    color: #fff;
+    border-radius: 13px;
+}
+
+.intro {padding: 30px 0;}
+.intro h1, p {
+    text-align: center;
+}
+.intro>h1 {
+    color: darkslateblue;
+}
+
+
+.ccCard {
+    background: linear-gradient(to left, #5d8aa8, #c9ffe5);
+    border-radius: 6px;
+    padding: 15px;
+    margin: 15px;
+    display: flex;
+    align-items: center;
+    box-shadow: inset 0px 0px 12px 0px #00000059;
+}
+.ccCard p {
+    padding-left: 20px;
+    margin-bottom: 0;
+    color: #003338;
+}
+
+.info {
+    box-shadow: 0 0 10px black;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 15px;
+    text-align: center;
+}
+.footer {
+    height: 100px;
+    line-height: 100px;
+    
+}
+
+
+@media (min-width: 576px) {
+    .nav input {
+        width: 200px !important;
+        border: none;
+        border-radius: 13px;
+        display: inline;
+        padding: 2px 0 2px 8px;
+    }
+    .nav p {
+        margin-bottom: -5px;
+        font-size: 16px;
+        font-weight: 600;
+        padding-left: 3px;
+    }
+    .myBtn {
+        border: none;
+        background: slateblue;
+        position: static;
+        font-size: 16px;
+        padding: 4px 6px 2px 6px;
+        color: #fff;
+        border-radius: 13px;
+    }
+    .nav img {
+        width: 60px;
+        height: 60px;
+    }
+}
+/* Bootstrap Modification  */
+@media (min-width: 768px) and (max-width: 991px) {
+.col-md-4 {
+    flex: 0 0 auto;
+    width: 50%;
+    }
+}
